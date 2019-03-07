@@ -8,6 +8,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
 import { DeleteComponent } from './delete/delete.component';
+import { HttpClientModule } from '@angular/common/http'
+import { ProductService } from './products/products.service'
 
 @NgModule({
   declarations: [
@@ -20,9 +22,11 @@ import { DeleteComponent } from './delete/delete.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

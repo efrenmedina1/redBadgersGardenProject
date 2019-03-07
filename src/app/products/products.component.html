@@ -1,0 +1,26 @@
+
+<h1>List of Products</h1>
+<div class="table" > 
+<div  class="card"  *ngFor="let products of products">
+    <div class="two"  >
+    {{ products.product_name  }}
+    <br>
+    <img class="img" src="{{ products.product_image }}" >
+    <br>
+    Price: {{ products.product_price  }}
+   </div>
+   <div class="two" >
+    
+    NO. {{ products.id }}
+    <br>
+    {{ products.product_description  }}
+    <br>
+    
+
+    
+   </div>
+   
+
+
+</div>
+</div>

@@ -15,7 +15,11 @@
     <br>
     {{ products.product_description  }}
     <br>
-    
+    <form (submit)="deleteProduct($event)"> 
+        <div>
+     <input type="submit" id="{{ products.id }}" >🗑️
+    </div>
+    </form>
 
     
    </div>

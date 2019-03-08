@@ -4,12 +4,14 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent} from './about/about.component';
 import { ProductsComponent } from './products/products.component'; 
 
+// import { HomepageComponent } from './homepage/homepage.component';
+// import { AboutComponent } from './about/about.component';
+// import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
- { path: '', component: HomepageComponent  },
- { path: 'about', component: AboutComponent },
- { path: 'products', component: ProductsComponent },
-
+//  { path: '', component: HomepageComponent  },
+//  { path: 'about', component: AboutComponent },
+//  { path: 'products', component: ProductsComponent },
  { path: '**', redirectTo: '' }
 
 ];

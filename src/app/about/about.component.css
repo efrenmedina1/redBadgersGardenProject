@@ -1,0 +1,16 @@
+.jumbotron {
+    background-color: #C8EE9E;
+}
+
+.jumbotron-one {
+    background-image: url('./assets/contact.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.form {
+    position: relative;
+    left: 30rem;
+}

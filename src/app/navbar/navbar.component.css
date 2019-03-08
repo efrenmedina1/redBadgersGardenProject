@@ -1,6 +1,7 @@
 .navbar{
 font-size: 150%;
 color: blue;
+height: 2vw;
 }
 
 .nav-item{
@@ -23,3 +24,4 @@ color: blue;
 #colorText{
     color: rgb(255, 0, 170)
 }
+

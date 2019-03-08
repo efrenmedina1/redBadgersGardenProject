@@ -1,0 +1,25 @@
+.navbar{
+font-size: 150%;
+color: blue;
+}
+
+.nav-item{
+    font-size: 100%;
+    text-align: right
+}
+
+
+
+.navbar-brand{
+    text-align: center;
+}
+
+#navback{
+    background-image: url(../../assets/back3.jpg);
+    background-size: fill;
+    padding: 5%
+}
+
+#colorText{
+    color: rgb(255, 0, 170)
+}

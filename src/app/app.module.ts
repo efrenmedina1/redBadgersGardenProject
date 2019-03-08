@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms'
@@ -9,6 +10,9 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
 import { DeleteComponent } from './delete/delete.component';
+import { HttpClientModule } from '@angular/common/http'
+import { ProductService } from './products/products.service';
+import { AuthComponent } from './auth/auth.component'
 
 @NgModule({
   declarations: [
@@ -17,14 +21,16 @@ import { DeleteComponent } from './delete/delete.component';
     HomepageComponent,
     AboutComponent,
     ProductsComponent,
-    DeleteComponent
+    DeleteComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

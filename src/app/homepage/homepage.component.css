@@ -21,9 +21,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5rem;
     text-shadow: 2px 2px 4px #ffffff;
+    text-align: center;
 }
 
 .lead {
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 4px #ffffff;
+    text-align: center;
 }

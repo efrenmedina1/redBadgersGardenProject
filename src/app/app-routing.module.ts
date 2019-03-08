@@ -5,9 +5,11 @@ import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
- { path: 'home', component: HomepageComponent  },
+ { path: '', component: HomepageComponent  },
  { path: 'about', component: AboutComponent },
  { path: 'products', component: ProductsComponent },
+
+ { path: '**', redirectTo: '' }
 ];
 
 @NgModule({

@@ -17,7 +17,7 @@ export class AuthComponent implements OnInit {
   }
 
     loginUser(e) {
-      e.preventDefault();
+      e.preventDefault(); 
       console.log(e);
       var username = e.target.elements[0].value;
       var password = e.target.elements[1].value;
@@ -36,6 +36,7 @@ export class AuthComponent implements OnInit {
     .then(json => {
       this.storeSession(json.loggedInUser, json.token)
       this.router.navigate([''])
+      window.alert("Logged in");
     })
   }
 

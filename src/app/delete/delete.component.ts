@@ -28,4 +28,16 @@ export class DeleteComponent implements OnInit {
       .catch(error => console.error('you got an error', error))
   }
 
+  login() {
+    fetch(`https://efa-gardenapp-backend.herokuapp.com/api/auth/login`, {
+      method: 'POST',
+      headers: new Headers({
+        Authorization: sessionStorage.getItem('token')
+      })
+    }).then(response => response.json())
+    .then(json => {
+      console.log(json)
+    })
+    .catch(error => console.error('you got an error', error))
+  }
 }

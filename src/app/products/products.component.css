@@ -1,0 +1,28 @@
+
+.table{
+    display: table;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+}
+
+.card{
+    width: 25%;
+    float: left;
+    display: table-cell;
+    height: 19vw;
+    background-color: #C8EE9E;
+    margin: 3vw;
+}
+
+.two{
+    width: 50%;
+    float: left;
+    display: table-cell;
+}
+
+
+img{
+    width: 50%;
+}

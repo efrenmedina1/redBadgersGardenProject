@@ -1,0 +1,14 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+input {
+  padding: 1.5em 6em 1.5em 6em;
+  margin: .5em;
+}
+
+.login {
+  padding: 1.5em;
+  background-color: rgb(231, 119, 119);
+}
